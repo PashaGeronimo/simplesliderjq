@@ -15,15 +15,23 @@ $('.im_right').css({
 };
 
 
-$('.bt_l').click(function(){
+$('.bt_l, .im_left').click(function(){
   ImgArr.unshift(ImgArr.pop());  //сдвиг влево
 imagess();
 })
 
-
-$('.bt_r').click(function(){
+$('.bt_r, .im_right').click(function(){
   ImgArr.push(ImgArr.shift());  //сдвиг влево
 imagess();
 })
+
+
+
+
+
+
+
+
+
 
 })
